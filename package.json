@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/triardn/hapi-web-server/issues"
   },
-  "homepage": "https://github.com/triardn/hapi-web-server#readme"
+  "homepage": "https://github.com/triardn/hapi-web-server#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.3"
+  }
 }
