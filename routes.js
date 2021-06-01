@@ -3,6 +3,18 @@ const routes = [
         method: 'GET',
         path: '/',
         handler: (request, h) => {
+            /** RESPONSE TOOLKIT
+             * const response = h.response('success')
+             * response.type('text/plain')
+             * response.header('X-Custom', 'some-value')
+             * return response
+             * 
+             * or
+             * 
+             * return h.response('success')
+             *      .type('text/plain')
+             *      .header('X-Custom', 'some-value')
+             */
             return 'Homepage'
         }
     },
